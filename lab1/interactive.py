@@ -1,4 +1,4 @@
-from script import solve
+from solver import solve
 
 def entry (coeff):
     try:

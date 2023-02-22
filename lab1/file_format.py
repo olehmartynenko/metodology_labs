@@ -1,4 +1,4 @@
-from script import solve
+from solver import solve
 from re import search
 
 def main(filename):
