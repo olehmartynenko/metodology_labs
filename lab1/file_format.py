@@ -1,6 +1,18 @@
 from script import solve
 from re import search
-   
+
+def main(filename):
+    content = validator(filename)
+    if content:
+        a, b, c = [float(i) for i in content.split()]
+        if a:
+            solve(a, b, c)
+        else:
+            print('a cannot be 0')
+
+    else:
+        return None
+       
 def validator(filename):
     pattern = r'^(-?\d+(\.\d+)?\s){2}-?\d+(\.\d+)?\n$'
     try:
