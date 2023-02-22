@@ -7,3 +7,4 @@ if len(argv) < 2:
 else:
     file_format.main(argv[1])
     
+#Here is text that will be removed by git revert
