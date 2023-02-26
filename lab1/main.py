@@ -4,6 +4,6 @@ import file_format
 
 if len(argv) < 2:
     interactive.main()
-else:
+elif len(argv) == 2:
     file_format.main(argv[1])
     
