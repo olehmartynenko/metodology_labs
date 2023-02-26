@@ -1,13 +1,13 @@
 from solver import solve
 
 def entry (coeff):
+    response = input(f'{coeff} = ')
     try:
-        response = input(f'{coeff} = ')
         number = float(response)
-        return number
     except:
         print(f'Error. Expected a valid real number, got {response} instead')
         return entry(coeff)
+    return number
 
 def main():
     a, b, c = entry('a'), entry('b'), entry('c')
