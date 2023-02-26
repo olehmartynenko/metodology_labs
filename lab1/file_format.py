@@ -6,7 +6,7 @@ def main(filename):
     if content:
         a, b, c = [float(i) for i in content.split()]
         if a:
-            solve(a, b, c)
+            return solve(a, b, c)
         else:
             print('a cannot be 0')
             return main(filename)

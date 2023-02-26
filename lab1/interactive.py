@@ -12,7 +12,7 @@ def entry (coeff):
 def main():
     a, b, c = entry('a'), entry('b'), entry('c')
     if a:
-        solve(a, b, c)
+        return solve(a, b, c)
     else:
         print('a cannot be 0')
         return main()
