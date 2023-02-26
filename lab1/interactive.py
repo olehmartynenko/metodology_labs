@@ -15,3 +15,4 @@ def main():
         solve(a, b, c)
     else:
         print('a cannot be 0')
+        return main()
