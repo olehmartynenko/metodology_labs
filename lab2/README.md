@@ -29,7 +29,7 @@ To run tests:
 ~/metodology_labs/lab2$ python3 -m unittest test.py
 ```
 
-### [Reference to failed CI tests](). [All tests results](https://github.com/olehmartynenko/metodology_labs/actions)
+### [Reference to failed CI tests](https://github.com/olehmartynenko/metodology_labs/commit/41b85bca05fd9e7aec3648e5d5be3269344ecdd3). [All tests results](https://github.com/olehmartynenko/metodology_labs/actions)
 
 ## Conclusion
 Tests saved my time when I was writing second implementation of list and it made me sure that I did it correctly. It was my first experience of writing tests and I liked it, so now I will use it more often.
