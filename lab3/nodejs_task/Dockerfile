@@ -8,10 +8,10 @@ RUN npm install
 
 COPY server.js .
 
-FROM astefanutti/scratch-node
+FROM gcr.io/distroless/nodejs
 
 COPY --from=build /app /
 
 EXPOSE 8080
 
-ENTRYPOINT ["node", "server.js"]
+CMD ["server.js"]
